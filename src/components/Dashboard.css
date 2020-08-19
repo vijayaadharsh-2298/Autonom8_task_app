@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.todolist, .inprogress, .completed{
+    width: 350px;
+    padding: 15px;
+}
+
+.todolist label{
+    font-weight: 500;
+}
+
+.completed label{
+    font-weight: 500;
+}
+
+.inprogress label{
+    font-weight: 500;
+}
+
+.todolist, .inprogress, .completed .dataContainer{
+    background: white;
+}
+
+.todolist .dataContainer .card{
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.inprogress .dataContainer .card{
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.completed .dataContainer .card{
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.card .taskid{
+    color: green;
+    font-weight: 500;
+    left: 10px;
+}
+
+.noimage{
+    border-radius: 25px;
+    width: 25px;
+    height: 25px;
+    right: 10px;
+}
+
+.card img{
+    border-radius: 25px;
+    width: 25px;
+    height: 25px;
+    right: 10px;
+}
